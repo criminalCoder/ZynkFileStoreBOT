@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                     [
                     InlineKeyboardButton("Click Here To Refresh Token", url=lazy_url)
                     ],[
-                    InlineKeyboardButton("Need Help? Watch Video Tutorial", url=lazy_url)
+                    InlineKeyboardButton("Need Help? Watch Video Tutorial", url=f"{HOW_TO_DOWNLOAD_LINK}")
                     ]
                 ]
                 await message.reply_text(

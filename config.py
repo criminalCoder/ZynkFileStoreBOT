@@ -37,6 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "5"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
+HOW_TO_DOWNLOAD_LINK = os.environ.get('HOW_TO_DOWNLOAD_LINK', "https://t.me/How_to_watch_gurujiurl/3")
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first},!\n\nI’m your File Store Bot, here to safely store and manage your private files. Upload them to the specified channel, and share them with others using a unique link. Let’s keep your files organized and accessible!</b>")
 try:
